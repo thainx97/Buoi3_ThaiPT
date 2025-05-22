@@ -10,10 +10,10 @@ public class Bai_2 {
         System.out.println("Nhap vao cac so nguyen (0 de dung lai): ");
         while (true) {
              numb = sc.nextInt();
+             total = total + numb;
             if(numb == 0) {
                 break;
             }
-            total = total + numb;
         }
         System.out.printf("Tong day so la: %d", total);
     }

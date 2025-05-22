@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Bai_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap vao 1 so: ");
+        System.out.println("Nhap vao 1 so nguyen: ");
         int numb = sc.nextInt();
         if(numb < 2) {
             System.out.printf("%d khong la so nguyen to", numb);
